@@ -1,0 +1,66 @@
+body{
+    width: 99%;
+    height: 100%;
+    padding: 0px;
+    background-image: url(imagens/fungo.jpg);
+    background-repeat: no-repeat;
+}
+.comeco {
+
+     margin: 0 auto;
+     width: 800px;
+     position: relative;
+     background-color: white;
+     text-align: center;
+     border-radius: 20px;
+     height: 660px;
+     margin-top: 30px;
+     font-family: arial;
+}
+.comeco1 {
+    background-color: rgb(219, 219, 219);
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.logo {
+    text-align: center;
+    font-family: arial;
+    font-size: 9pt;
+    margin-top: 30px;
+}
+.logo1 {
+    text-align: center;
+    font-family: arial;
+    font-size: 9pt;
+ 
+}
+.titulo {
+    font-size: 40pt;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 700;
+}
+.subtitulo{
+    font-weight: 600;
+    font-size: 20pt;
+    font-family: arial;
+    text-align: left;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+.wpp {
+    border: none;
+    background-color: green;
+    font-size: 15pt;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 15px;
+}
