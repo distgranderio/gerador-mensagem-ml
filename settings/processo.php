@@ -1,7 +1,7 @@
 <?php 
-include_once("settings.php");
+include_once("././local.php");
 
-$url = 'C:\xampp\htdocs\PMercadolivre\Detalhes.html';
+$url = $endereço;
 
 ini_set('display_errors', 0 );
 error_reporting(0);
