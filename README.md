@@ -47,4 +47,4 @@ Fique por dentro de nossas novidades e Promoções:
  - Abrir arquivo "local.php" com algum editor de código ou bloco de notas e ajustar o local que será buscado as informaçõs.
  - Abrir arquivo "mensagem.php" com algum editor de código ou bloco de notas e ajustar o modelo de mensagem de acordo com sua preferência.
  ```
-> O Mercado Livre atulizou sua polítca e não está mais informando o número de telefone nos detalhes do pedido, o que impossibilita do sistema enconstar e o mesmo terá que ser digitado a mão.
+> O Mercado Livre atulizou sua polítca e não está mais informando o número de telefone nos detalhes do pedido, o que impossibilita o sistema encontrar; E o mesmo terá que ser digitado a mão.
