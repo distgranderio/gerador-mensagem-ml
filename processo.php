@@ -1,7 +1,10 @@
 <?php 
 include_once("settings.php");
 
-$url = $endereço;
+$url = 'C:\xampp\htdocs\PMercadolivre\Detalhes.html';
+
+ini_set('display_errors', 0 );
+error_reporting(0);
 
 $dadosSite = file_get_contents($url);
 
@@ -42,4 +45,42 @@ $var16 = explode("/1", $var15[1]);
 $var17 = explode('">Código de rastreamento:', $dadosSite);
 
 $var18 = explode('</div>', $var17[1]);
+
+$var19 = explode('label">Venda ', $dadosSite);
+
+$var20 = explode(' |', $var19[1]);
+
+$var21 = explode('">Produtos</div><div class="sc-account-rows__row__price--container"><div class="sc-account-rows__row__price">', $dadosSite);
+
+$var22 = explode('</div>', $var21[1]);
+
+$var23 = explode('">Produto</div><div class="sc-account-rows__row__price--container"><div class="sc-account-rows__row__price">', $dadosSite);
+
+$var24 = explode('</div>', $var23[1]);
+
+$var25 = explode('"sc-status__title">', $dadosSite);
+
+$var26 = explode('</div>', $var25[1]);
+
+$nome = $var2[0];
+$data = $var4[0];
+$telefone = $var14[0];
+$rastreio = $var18[0];
+$endereço = $var10[0];
+$notafiscal = $var16[0];
+$numeropedido = $var20[0];
+$statuspedido = $var26[0];
+if ($var22[0] == NULL){
+    $valorprodutos = $var24[0];
+}
+else {$valorprodutos = $var22[0];}
+if ($var6[0] == NULL){
+    $qtd = $vartest1[0];
+}
+else {$qtd = $var6[0]; }
+if ($var8[0] == "1 pacote"){
+    $produto = "Pacote de Produtos";
+}
+else { $produto = $var8[0];}
+
 ?>
