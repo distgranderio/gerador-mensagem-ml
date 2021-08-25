@@ -1,5 +1,5 @@
 <?php
 
-$endereço = 'C:\xampp\htdocs\PMercadolivre\Detalhes.html';
+$endereço = 'C:\xampp\htdocs\gerador-mensagem-ml\Detalhes.html';
 
 ?>
