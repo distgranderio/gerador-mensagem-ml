@@ -1,7 +1,7 @@
 #  💭  Gerador de mensagem com dados do Mercado Livre
 ## Apresentação
 
-Sistema utilizando a função explode do PHP que buscas dados na página e gera uma mensagem predefinida pelo usuário.
+Sistema para envio de mensagens com dados do Mercado Livre
 
 ### Variáveis que podem ser utilizadas:
 
@@ -16,23 +16,6 @@ Sistema utilizando a função explode do PHP que buscas dados na página e gera 
 - $valorprodutos = Valor total dos produtos
 - $statuspedido = Status do pedido (entregue, enviado, concluido...)
 
-### Modelo de mensagem :
-
-```
-🖐 Olá $nome, 
-Vimos que seu pedido $numeropedido do dia $data com a nota fiscal $notafiscal
-de $qtd x $produto no valor de $valorprodutos passou para o Status de $statuspedido, você pode acompanhar
-com o código de rastreio $rastreio 
-Estamos também deixando nosso WhatsApp à disposição para qualquer dúvida ou futura negociação! 
-.
-Fique por dentro de nossas novidades e Promoções:
-(temos a linha completa em produtos...)
-📞: Seu telefone
-💻: link do seu site
-📱 : link do seu facebook
-📷: link do seu instagram
-
-```
 
 ## Instalação
 ### Requisitos:
