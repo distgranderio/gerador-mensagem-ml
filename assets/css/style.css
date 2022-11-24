@@ -52,7 +52,7 @@ body{
     padding: 10px;
     border-radius: 15px;
 }
-footer h3{
+footer{
     font-family: 'Lobster', cursive;
     text-transform:capitalize;
     font-size: 30pt;
@@ -82,4 +82,8 @@ footer h3{
   }
   #copiar{
       opacity: 0;
+  }
+  .logo, .logo1{
+    text-align: center;
+    margin-top: 10px;
   }
